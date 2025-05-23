@@ -21,15 +21,15 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 onClick={() => setMenuOpen(false)}
                 className={`text-2x font-semibold text-white my-4 transform trasition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} >Home</a>
 
-            <a href="#About"
+            <a href="#about"
                 onClick={() => setMenuOpen(false)}
                 className={`text-2x font-semibold text-white my-4 transform trasition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} >About</a>
 
-            <a href="#Projects"
+            <a href="#projects"
                 onClick={() => setMenuOpen(false)}
                 className={`text-2x font-semibold text-white my-4 transform trasition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>Projects</a>
 
-            <a href="#Contact"
+            <a href="#contact"
                 onClick={() => setMenuOpen(false)}
                 className={`text-2x font-semibold text-white my-4 transform trasition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>Contact</a>
 

@@ -11,7 +11,7 @@ import { RevealOnScroll } from './Components/RevealOnScroll';
 
 export const Projects = () => {
     return (
-        <section id="projects" className="min-h-screen flex items-center justify-center py-20">
+        <section id="projects" className="min-h-screen flex items-center justify-center py-80">
             <RevealOnScroll>
                 <div className="max-w-5xl mx-auto px-4 w-full">
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-cyan-400 bg-clip-text text-transparent text-center">
@@ -51,7 +51,7 @@ export const Projects = () => {
                                 />
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="colocarlink" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
+                                <a href="https://github.com/Joao-Parada/JoaoParada---Projects" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
                             </div>
                         </div>
 
@@ -87,7 +87,7 @@ export const Projects = () => {
                                     alt="default"
                                 />
                             </div>
-                            <a href="colocarlink" className="text-cyan-400 hover:text-green-300 transition-colors my-3">View Project → </a>
+                            <a href="https://github.com/Joao-Parada/JoaoParada---Projects" className="text-cyan-400 hover:text-green-300 transition-colors my-3">View Project → </a>
                         </div>
 
                         <div className="rounded-xl p-6 bg-white/5 border border-white/10 hover:-translate-y-1 transition-all">
@@ -112,7 +112,7 @@ export const Projects = () => {
     alt="default"
 />
                             </div>
-                            <a href="colocarlink" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
+                            <a href="https://github.com/Joao-Parada/JoaoParada---Projects" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
                         </div>
 
                         <div className="rounded-xl p-6 bg-white/5 border border-white/10 hover:-translate-y-1 transition-all">
@@ -137,7 +137,7 @@ export const Projects = () => {
     alt="default"
 />
                                 </div>
-                                <a href="colocarlink" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
+                                <a href="https://github.com/Joao-Parada/JoaoParada---Projects" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
                             
                         </div>
                     </div>
