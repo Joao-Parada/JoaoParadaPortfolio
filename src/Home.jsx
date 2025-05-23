@@ -7,9 +7,9 @@ export const Home = () => {
     >
         <RevealOnScroll>
         <div className="text-center z-10 px-4">
-            <img className='w-100 h-70 rounded-full object-cover mx-auto mb-6 hover:translate-y-1' src={profileImg} alt="default" />
-            <h1 className="text-5-xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-cyan-600 bg-clip-text text-transparent leading-right">Hi, I'm João!</h1>
-            <p className="text-gray text-lg mb-8 max-w-200 mx-auto ">
+            <img className='w-100 h-70 rounded-full object-cover mx-auto mb-10 hover:translate-y-1' src={profileImg} alt="default" />
+            <h1 className="text-[4rem] md:text-[6rem] font-bold mb-15 bg-gradient-to-r from-green-500 to-cyan-600 bg-clip-text text-transparent leading-tight">Hi, I'm João!</h1>
+            <p className="text-gray text-lg mb-15 max-w-200 mx-auto ">
                 I'm a creative software developer with strong communication and social skills, driven by a passion for tech and teamwork. My love for sports fuels my discipline and energy, and I bring that same spirit into problem-solving and collaborative projects.
             </p>
             <div className="flex justify-center space-x-4">
