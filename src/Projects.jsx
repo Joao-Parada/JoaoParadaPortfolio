@@ -5,7 +5,7 @@ import fox1 from './Resources/1741800915393.jpg'
 import fox2 from './Resources/1741800931089.jpg'
 import fox3 from './Resources/1741800899760.jpg'
 import multi1 from './Resources/MultiUserChatServer.png'
-import  paint1 from './Resources/SquarePaint.png'
+import paint1 from './Resources/SquarePaint.png'
 
 import { RevealOnScroll } from './Components/RevealOnScroll';
 
@@ -61,7 +61,7 @@ export const Projects = () => {
                                 Foxalypse is a tower defense-style game inspired by Plants vs. Zombies, developed entirely in Java with the SimpleGraphics library. Players defend a chicken coop from waves of foxes using strategic placement and timing. The project was built from scratch, highlighting skills in object-oriented programming, custom 2D animation, and game logic. It was also packaged as a JAR file to ensure portability and ease of execution across systems.
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["Java", "SimpleGraphics","2D Animation"].map((tech, key) => (
+                                {["Java", "SimpleGraphics", "2D Animation"].map((tech, key) => (
                                     <span
                                         key={key}
                                         className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -106,11 +106,11 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className="flex justify-center gap-4 mb-6 overflow-hidden">
-      <img
-    className="w-60 h-60 sm:w-90 sm:h-45 max-w-full max-h-full object-contain rounded-lg border-2 border-gray-400 relative z-10 transition-transform duration-300 hover:scale-150 hover:z-20"
-    src={multi1}
-    alt="default"
-/>
+                                <img
+                                    className="w-60 h-60 sm:w-90 sm:h-45 max-w-full max-h-full object-contain rounded-lg border-2 border-gray-400 relative z-10 transition-transform duration-300 hover:scale-150 hover:z-20"
+                                    src={multi1}
+                                    alt="default"
+                                />
                             </div>
                             <a href="https://github.com/Joao-Parada/JoaoParada---Projects" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
                         </div>
@@ -118,7 +118,7 @@ export const Projects = () => {
                         <div className="rounded-xl p-6 bg-white/5 border border-white/10 hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-2">Square Paint</h3>
                             <p className="text-gray-400 mb-4">
-                               Square Paint is an interactive Java application that transforms a simple 20x20 grid into a responsive digital canvas. Designed with simplicity and function in mind, it empowers users to create pixel-style artwork using keyboard controls no mouse required.
+                                Square Paint is an interactive Java application that transforms a simple 20x20 grid into a responsive digital canvas. Designed with simplicity and function in mind, it empowers users to create pixel-style artwork using keyboard controls no mouse required.
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["Java", "Grid Logic", "Simple Graphics", "Coordinate Mapping", "File I/O "].map((tech, key) => (
@@ -130,15 +130,14 @@ export const Projects = () => {
                                     </span>
                                 ))}
                             </div>
-                           <div className="flex justify-center gap-4 mb-6 overflow-hidden">
-                                 <img
-    className="w-60 h-60 sm:w-90 sm:h-45 max-w-full max-h-full object-contain rounded-lg border-2 border-gray-400 relative z-10 transition-transform duration-300 hover:scale-150 hover:z-20"
-    src={paint1}
-    alt="default"
-/>
-                                </div>
-                                <a href="https://github.com/Joao-Parada/JoaoParada---Projects" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
-                            
+                            <div className="flex justify-center gap-4 mb-6 overflow-hidden">
+                                <img
+                                    className="w-60 h-60 sm:w-90 sm:h-45 max-w-full max-h-full object-contain rounded-lg border-2 border-gray-400 relative z-10 transition-transform duration-300 hover:scale-150 hover:z-20"
+                                    src={paint1}
+                                    alt="default"
+                                />
+                            </div>
+                            <a href="https://github.com/Joao-Parada/JoaoParada---Projects" className="text-cyan-400 hover:text-green-300 transition-colors my-4">View Project → </a>
                         </div>
                     </div>
                 </div>
